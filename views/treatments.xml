@@ -23,14 +23,14 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="treatments_code"/>
+                            <field name="treatments_code" attrs="{'readonly': [('id', '!=', False)]}"/>
                         </group>
                         <group>
-                            <field name="treatments_name"/>
+                            <field name="treatments_name" attrs="{'readonly': [('id', '!=', False)]}"/>
                         </group>
                     </group>
                     <group>
-                        <field name="doctor"></field>
+                        <field name="doctor" attrs="{'readonly': [('id', '!=', False)]}"/>
                     </group>  
                 </sheet>
             </form>
